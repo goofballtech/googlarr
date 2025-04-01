@@ -34,12 +34,22 @@ Googlarr is a scheduled prank daemon that:
 
 ## Setup
 
-1. Clone this repository locally.
-2. Install via Docker Compose (see included `docker-compose.yml`)
+1. Clone this repository locally
+2. Configure your `config.yml`
+3. `./build.sh`
+4. `./run.sh`
+5. Pray
+
+---
+
+## Docker Compose
+
+1. Clone this repository locally
+2. Set up your Docker Compose (see included `docker-compose.yml`)
 3. Configure your `config.yml`
 4. `docker compose build googlarr`
 5. `docker compose up -d`
-6. Pray
+6. Cross your fingers
 
 ---
 
