@@ -1,7 +1,9 @@
 services:
   googlarr:
     container_name: googlarr
-    image: Bothari/googlarr:latest  # Replace with your image name if published
+    build:
+      context: <cloned repository location>
+      dockerfile: Dockerfile
     environment:
       - TZ=America/Los_Angeles
     volumes:
