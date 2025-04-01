@@ -16,6 +16,8 @@ Googlarr uses the Plex API to modify the posters for your Plex media items **in 
 
 **Use at your own risk. This project is for prank purposes only. I cannot provide support in case of failure.**
 
+I highly recommend testing this on a dummy library in Plex before rolling it out for real. Create a new minimal library with just a handful of media items, and set that up in the config. Set up a very brief cron window to test it (e.g. starting at 10am today, and ending at 10.15am), to ensure that paths etc. are set up properly and poster restore works properly at the end of the time.
+
 ![image](https://github.com/user-attachments/assets/b9b659b5-9339-49db-8836-d0eb18624c7a)
 
 ---
