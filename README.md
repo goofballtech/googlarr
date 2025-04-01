@@ -16,6 +16,8 @@ Googlarr uses the Plex API to modify the posters for your Plex media items **in 
 
 **Use at your own risk. This project is for prank purposes only. I cannot provide support in case of failure.**
 
+![image](https://github.com/user-attachments/assets/b9b659b5-9339-49db-8836-d0eb18624c7a)
+
 ---
 
 ## What It Does
