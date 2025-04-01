@@ -1,0 +1,9 @@
+# requirements.txt
+plexapi
+PyYAML
+requests
+Pillow
+mediapipe
+numpy
+opencv-python
+croniter

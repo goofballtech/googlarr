@@ -1,0 +1,11 @@
+services:
+  googlarr:
+    container_name: googlarr
+    image: Bothari/googlarr:latest  # Replace with your image name if published
+    environment:
+      - TZ=America/Los_Angeles
+    volumes:
+      - /path/to/config:/app/config
+      - /path/to/data:/app/data
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped

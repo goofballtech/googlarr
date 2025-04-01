@@ -1,0 +1,29 @@
+plex:
+  url: "http://<your-server>:32400"
+  token: "<your token>"
+  libraries:
+    - "TV Shows"
+    - "Movies"
+
+schedule:
+  start: "30 10 * * *"
+  stop: "00 11 * * *"
+
+paths:
+  originals_dir: "data/posters/originals"
+  prank_dir: "data/posters/prank"
+
+database: "data/googlarr.db"
+
+detection:
+  face_detection_confidence: 0.4
+  landmark_detection_confidence: 0.4
+  scale_by_face_size: true
+  face_based_eye_scale: 0.35
+  eye_overlay_scale: 40.0
+  use_same_size_for_both_eyes: true
+  prevent_floating_eyes: true
+  min_face_confidence: 0.5
+  use_haar_fallback: true
+  movie_poster_mode: true
+  max_faces: 10
