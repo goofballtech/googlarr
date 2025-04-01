@@ -39,6 +39,16 @@ Googlarr is a scheduled prank daemon that:
 
 ---
 
+## Setup details
+
+The script works by kicking off a number of workers. First it will sync poster info to a small database, and then download all the relevant posters. It took my low powered server about 30 minutes to process about 5000 items, with a poster success rate of about 75%. (Some posters don't have any faces, some detection just fails).
+
+Based on the cron schedule in the config file, it will "sleep" a worker to start at that schedule time, at which point it will wake up and switch out all your posters.
+
+To that end, I recommend setting the "start" schedule time to an hour or two in the future, then starting the container. That will give it time to process all the posters before switching them out.
+
+---
+
 ## Example Config
 
 ```yaml
